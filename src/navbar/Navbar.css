@@ -1,0 +1,35 @@
+
+.navbar{
+    width: 100%;
+    /* background-color: yellowgreen; */
+}
+
+.navbar-block{
+    background-color: yellowgreen;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navbar-block #active{
+    background-color: darkgreen;
+    color: white;
+}
+
+.navbar-option{
+    /* background-color: yellowgreen; */
+    
+    width: auto;
+    padding: 0% 2%;
+    text-align: center;
+    
+}
+
+.navbar-option:hover{
+    background-color: darkgreen;
+    color: white;
+}
+.navbar-option .navbar-title{
+    font-size: 2.5vh;
+}

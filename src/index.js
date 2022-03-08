@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
 
-import Header from './Header';
-import Navibar from './Navibar';
-import Content from './Content';
+import Header from './header/Header';
+import Navbar from './navbar/Navbar';
+import Content from './content/Content';
+//import Sidebar from './sidebar/Sidebar';
+
 /* 
 //React default page
 ReactDOM.render(
@@ -25,10 +27,20 @@ ReactDOM.render(
 
 ReactDOM.render(
   <React.StrictMode>
-    <Navibar />
+    <Navbar />
   </React.StrictMode>, 
-  document.getElementById('navibar')
+  document.getElementById('navbar')
 );
+
+/*
+ReactDOM.render(
+  <React.StrictMode>
+    <Sidebar />  
+  </React.StrictMode>,
+  document.getElementById('sidebar')
+);
+*/
+
 ReactDOM.render(
   <React.StrictMode>
     <Content 
