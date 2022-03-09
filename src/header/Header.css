@@ -1,0 +1,22 @@
+.header{
+    width: 100%;
+    margin: 0;
+    padding: 0% 0% 0% 2%;
+    /* background: darkgrey; */
+
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */
+}
+
+.header-title{
+    color: darkgreen;
+}
+.header-url{
+    text-decoration: none;
+}
+.header-url:active, .header-url:visited, .header-url:hover, .header-url:link{
+    text-decoration: none;
+    color: darkgreen;
+}

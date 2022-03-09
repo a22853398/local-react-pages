@@ -7,23 +7,23 @@ export const NavbarList = [
         url: "/home",
     },
     {
-        title: "ポモドーロ時計",
+        title: "ツール",
         icon: "",
-        url: "/tomato-clock",
+        url: "/tool",
     },
     {
-        title: "雑乱なGithub",
+        title: "貯蔵庫",
         icon: "",
-        url: "/github",
-    },
-    {
-        title: "Gitlab貯蔵庫",
-        icon: "",
-        url: "/gitlab",
+        url: "/kura",
     },
     {
         title: "プロフィール",
         icon: "",
         url: "/profile",
+    },
+    {
+        title: "お問い合わせ",
+        icon: "",
+        url: "/contact",
     },
 ];

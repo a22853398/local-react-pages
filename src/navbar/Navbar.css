@@ -1,12 +1,16 @@
 
 .navbar{
     width: 100%;
-    /* background-color: yellowgreen; */
+    -webkit-user-select: none;  /* Chrome all / Safari all */
+    -moz-user-select: none;     /* Firefox all */
+    -ms-user-select: none;      /* IE 10+ */
+    user-select: none;          /* Likely future */
 }
 
 .navbar-block{
     background-color: yellowgreen;
     list-style-type: none;
+    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -19,11 +23,10 @@
 
 .navbar-option{
     /* background-color: yellowgreen; */
-    
     width: auto;
     padding: 0% 2%;
     text-align: center;
-    
+    cursor: pointer;
 }
 
 .navbar-option:hover{
@@ -31,5 +34,5 @@
     color: white;
 }
 .navbar-option .navbar-title{
-    font-size: 2.8vh;
+    font-size: 1.5rem;
 }

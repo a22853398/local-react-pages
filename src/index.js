@@ -7,6 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import Header from './header/Header';
 import Navbar from './navbar/Navbar';
 import Content from './content/Content';
+import Footer from './footer/Footer';
 //import Sidebar from './sidebar/Sidebar';
 
 /* 
@@ -48,6 +49,13 @@ ReactDOM.render(
     />
   </React.StrictMode>,
   document.getElementById('content')
+);
+
+ReactDOM.render(
+  <React.StrictMode>
+    <Footer />
+  </React.StrictMode>,
+  document.getElementById('footer')
 );
 
 // If you want to start measuring performance in your app, pass a function

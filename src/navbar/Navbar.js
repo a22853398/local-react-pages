@@ -13,7 +13,7 @@ function Navbar(){
                                 <li 
                                     key= {key}
                                     className= "navbar-option"
-                                    id= { window.location.pathname == value.url ? "active" : "" }
+                                    id= { window.location.pathname === value.url ? "active" : "" }
                                     onClick={ () =>{
                                         window.location.pathname = value.url; 
                                     }}

@@ -1,5 +1,6 @@
 import React, { Component }  from "react";
 import HeaderTitle from "./HeadTitle";
+import "./Header.css";
 /*
 function Header(){
     const isApple = false;
@@ -12,7 +13,7 @@ function Header(){
 */
 function Header(){
     return(
-        <div>
+        <div className="header">
             <HeaderTitle />
         </div>
     );
